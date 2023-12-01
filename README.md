@@ -4,9 +4,9 @@
 - sudo mysql -u root -p
 - password: Qwerty@123
 ### insert dummy data to database
-- SHOW DATABASE;
-- USE LMS;
-- SHOW TABLES;
+- **SHOW DATABASE;**
+- **USE LMS;**
+- **SHOW TABLES;**
 - INSERT INTO user (id, email, username, password, roles,img)
 VALUES
 ('1', 'jessie@digital-edify.com', 'jessie', '$2a$10$HHb8UqUNaLB4bWAkdWzKs.WoDuAiWm5QHhQq00kPiWLJpkHxRKQRa', 'superadmin',null),
@@ -17,6 +17,6 @@ VALUES
 ('6', 'farhath@gmail.com', 'farhath', '$2a$10$CMpmYyJIMcySe1yP57D55uTqzrqpmFHL2numt4wD4lkd3n0BQiLCy', 'user',null),
 ('7', 'nithin@gmail.com', 'nithin', '$2a$10$DGCAWkzJbSMM2.pLhYH4wOnbzg2DQGES/vlQ8v3CD/tT8mXvjn8ky', 'user',null);
 - **to check the data**
-- SELECT * FROM user;
+- **SELECT * FROM user;**
 ## Rebuild the Backend
 ## Build Frontend and check connectivity
