@@ -1,9 +1,9 @@
 # Data inserting into mysql server
-## build backend it will create LMS database in mysql
-## login to mysql server
+## Build backend it will create LMS database in mysql
+## Login to mysql server
 - sudo mysql -u root -p
 - password: Qwerty@123
-### insert dummy data to database
+### Insert dummy data to database
 - **SHOW DATABASE;**
 - **USE LMS;**
 - **SHOW TABLES;**
