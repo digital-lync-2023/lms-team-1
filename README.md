@@ -16,7 +16,7 @@ VALUES
 ('5', 'ravi@digital-edify.com', 'ravi', '$2a$10$c9rtpTX8DOGoFi65hKF2Se5SADmiJQNRKb0mGzsMCidRj56sP9OfS', 'admin',null),
 ('6', 'farhath@gmail.com', 'farhath', '$2a$10$CMpmYyJIMcySe1yP57D55uTqzrqpmFHL2numt4wD4lkd3n0BQiLCy', 'user',null),
 ('7', 'nithin@gmail.com', 'nithin', '$2a$10$DGCAWkzJbSMM2.pLhYH4wOnbzg2DQGES/vlQ8v3CD/tT8mXvjn8ky', 'user',null);
-**to check the data**
+- **to check the data**
 - SELECT * FROM user;
 ## Rebuild the Backend
 ## Build Frontend and check connectivity
