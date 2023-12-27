@@ -1,8 +1,5 @@
-# Use the official OpenJDK 17 image as the base image
+# Use the official OpenJDK 17 base image
 FROM openjdk:17
-
-# Maintainer information
-LABEL maintainer="murali muralialakuntla3@gmail.com"
 
 # Set the working directory in the container
 WORKDIR /app
