@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lms-backend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lms-backend
+  template:
+    metadata:
+      labels:
+        app: lms-backend
+    spec:
+      containers:
+        - name: lms-backend
+          image: akhilteja87/backend2
+          env:
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: password
+          envFrom:
+            - configMapRef:
+                name: lms-config
+          ports:
+            - containerPort: 8080
+
